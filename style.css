@@ -32,6 +32,11 @@ div#res {
     margin-top: 20px;
 }
 
+footer{
+    margin-top: 330px;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 600px) {
     body, h1, div#res {
         text-align: center; 
