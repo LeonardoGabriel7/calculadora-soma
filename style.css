@@ -9,14 +9,22 @@ body {
 }
 
 body h1 {
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 900;
 }
 
-
+header h1 {
+    font-size: 40px;
+    font-weight: 900;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 
 input {
     font: normal 18pt arial;
     width: 114px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 div#res {
@@ -24,10 +32,9 @@ div#res {
     margin-top: 20px;
 }
 
-/* Media Query para telas menores, como telefones */
 @media screen and (max-width: 600px) {
     body, h1, div#res {
-        text-align: center; /* Centralizar em telas menores */
+        text-align: center; 
     }
 
     input {
@@ -35,7 +42,6 @@ div#res {
         box-sizing: border-box;
         margin-bottom: 10px;
     }
-
 
 
     header{
