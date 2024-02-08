@@ -1,13 +1,35 @@
 @charset "utf-8";
 
-body{
+body {
     font: normal 18pt arial;
+    text-align: left; /* Alinhar à esquerda por padrão */
 }
 
-input{
-    font: normal 18pt arial;
-    width: 100px;
+body h1 {
+    font-size: 40px;
+    text-align: left; /* Alinhar à esquerda por padrão */
 }
-div#res{
+
+input {
+    font: normal 18pt arial;
+    width: 114px;
+}
+
+div#res {
+    text-align: left; /* Alinhar à esquerda por padrão */
     margin-top: 20px;
 }
+
+/* Media Query para telas menores, como telefones */
+@media screen and (max-width: 600px) {
+    body, h1, div#res {
+        text-align: center; /* Centralizar em telas menores */
+    }
+
+    input {
+        width: 100px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+}
+
