@@ -2,13 +2,17 @@
 
 body {
     font: normal 18pt arial;
-    text-align: left; /* Alinhar à esquerda por padrão */
+    text-align: left; 
+    background-color: rgba(6, 6, 233, 0.753);
+    color: white;
+    
 }
 
 body h1 {
     font-size: 40px;
-    text-align: left; /* Alinhar à esquerda por padrão */
 }
+
+
 
 input {
     font: normal 18pt arial;
@@ -16,7 +20,7 @@ input {
 }
 
 div#res {
-    text-align: left; /* Alinhar à esquerda por padrão */
+    text-align: left; 
     margin-top: 20px;
 }
 
@@ -30,6 +34,13 @@ div#res {
         width: 100px;
         box-sizing: border-box;
         margin-bottom: 10px;
+    }
+
+
+
+    header{
+        width:100%;
+        margin-top: 10px;
     }
 }
 
